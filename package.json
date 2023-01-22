@@ -1,0 +1,14 @@
+{
+  "name": "web-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm recursive run ci",
+    "dev": "pnpm recursive run dev",
+    "build": "pnpm recursive run build"
+  },
+  "keywords": [],
+  "author": "Franz Sittampalam",
+  "license": "ISC"
+}

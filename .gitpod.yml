@@ -1,0 +1,14 @@
+tasks:
+  - name: install dependencies
+    init: pnpm install && pnpm build
+    command: pnpm dev
+ports:
+  - port: 6006
+    onOpen: open-preview
+    name: histoire
+    description: histoire
+
+vscode:
+  extensions:
+    - antfu.unocss
+    - svelte.svelte-vscode
