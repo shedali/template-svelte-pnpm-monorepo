@@ -1,5 +1,6 @@
-import {types as t} from "mobx-state-tree";
-import {test, it, expect} from "vitest";
+/// <reference types="vitest" />
+
+import { types as t } from "mobx-state-tree";
 const Test = t.model({
 	test: t.string
 })
@@ -9,7 +10,7 @@ export const tes = Test.create({
 })
 
 if (import.meta.vitest) {
-  it('should do something', ()=>{
-  	expect(1).toBe(1);
-  })
+	it('should do something', () => {
+		expect(1).toBe(1);
+	})
 }
