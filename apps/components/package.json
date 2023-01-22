@@ -3,9 +3,9 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "run-p dev:*",
-		"dev:histoire": "histoire dev",
-		"dev:web": "vite dev",
+		"dev": "run-p *:dev",
+		"histoire:dev": "histoire dev",
+		"web:dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
