@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "run-p dev:*",
 		"dev:histoire": "histoire dev",
+		"dev:web": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -34,13 +35,11 @@
 		"prettier-plugin-svelte": "^2.8.1",
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
+		"ts-example": "workspace:^1.0.0",
 		"tslib": "^2.4.1",
 		"typescript": "^4.9.3",
 		"unocss": "^0.48.4",
 		"vite": "^4.0.0"
 	},
-	"type": "module",
-	"dependencies": {
-		"ts-example": "workspace:^1.0.0"
-	}
+	"type": "module"
 }
