@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "pnpm recursive run ci",
+    "start": "pnpm recursive run dev",
     "dev": "pnpm recursive run dev",
     "build": "pnpm recursive run build"
   },
