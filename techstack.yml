@@ -1,0 +1,218 @@
+repo_name: shedali/template-svelte-pnpm-monorepo
+report_id: 6b28cd358fbead1ed53f6a26ee764169
+repo_type: Public
+timestamp: '2023-11-09T22:37:00+00:00'
+requested_by: shedali
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: MobX
+  description: Simple, scalable state management
+  website_url: https://github.com/mobxjs/mobx
+  version: 6.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5302/17475736.png
+  detection_source_url: libs/ts-base/package.json
+  detection_source: libs/ts-base/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 20:23:18.000000000 Z
+- name: MobX-State-Tree
+  description: Full-featured reactive state management without the boilerplate
+  website_url: https://mobx-state-tree.js.org/intro/welcome
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/9129/default_c85dc717f6faf8f246f92d33fca5399a349b294f.png
+  detection_source: libs/ts-base/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 20:23:18.000000000 Z
+- name: Svelte
+  description: A UI framework that compiles into tiny standalone JavaScript modules
+  website_url: https://svelte.technology/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/6113/7exmJEg4_400x400.png
+  detection_source: apps/components/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 20:14:22.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: apps/components/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 20:14:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Nix
+  description: 'A package manager for Linux and other Unix systems '
+  website_url: http://nixos.org/nix
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source: Repo Metadata
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: apps/components/package.json
+  detection_source: apps/components/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 20:14:22.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: apps/components/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 20:14:22.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.45.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: apps/components/package.json
+  detection_source: apps/components/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 20:36:40.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.45.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: apps/components/package.json
+  detection_source: apps/components/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 20:36:40.000000000 Z
+- name: chokidar-cli
+  description: Ultra-fast cross-platform command line utility to watch file system
+    changes
+  package_url: https://www.npmjs.com/chokidar-cli
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16834/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
+  detection_source_url: libs/ts-base/package.json
+  detection_source: libs/ts-base/package.json
+  last_updated_by: shedali
+  last_updated_on: 2023-01-22 20:35:38.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: apps/components/package.json
+  detection_source: apps/components/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 20:14:22.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: apps/components/package.json
+  detection_source: apps/components/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 22:45:55.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.4.1
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: apps/components/package.json
+  detection_source: apps/components/package.json
+  last_updated_by: Franz Sittampalam
+  last_updated_on: 2023-01-22 20:14:22.000000000 Z
