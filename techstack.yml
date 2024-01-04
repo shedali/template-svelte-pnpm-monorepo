@@ -1,7 +1,8 @@
 repo_name: shedali/template-svelte-pnpm-monorepo
 report_id: 6b28cd358fbead1ed53f6a26ee764169
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T22:37:00+00:00'
+timestamp: '2024-01-04T15:16:33+00:00'
 requested_by: shedali
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo
   detection_source: Repo Metadata
 - name: MobX
   description: Simple, scalable state management
@@ -37,7 +40,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/5302/17475736.png
-  detection_source_url: libs/ts-base/package.json
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/libs/ts-base/package.json
   detection_source: libs/ts-base/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 20:23:18.000000000 Z
@@ -50,6 +53,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/9129/default_c85dc717f6faf8f246f92d33fca5399a349b294f.png
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/libs/ts-base/package.json
   detection_source: libs/ts-base/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 20:23:18.000000000 Z
@@ -62,6 +66,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/6113/7exmJEg4_400x400.png
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/apps/components/package.json
   detection_source: apps/components/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 20:14:22.000000000 Z
@@ -74,6 +79,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/apps/components/package.json
   detection_source: apps/components/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 20:14:22.000000000 Z
@@ -85,6 +91,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo
   detection_source: Repo Metadata
 - name: Nix
   description: 'A package manager for Linux and other Unix systems '
@@ -95,6 +102,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo
   detection_source: Repo Metadata
 - name: Prettier
   description: 'Prettier is an opinionated code formatter. '
@@ -106,7 +114,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: apps/components/package.json
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/apps/components/package.json
   detection_source: apps/components/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 20:14:22.000000000 Z
@@ -118,6 +126,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/apps/components/package.json
   detection_source: apps/components/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 20:14:22.000000000 Z
@@ -130,6 +139,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo
   detection_source: Repo Metadata
 - name: "@typescript-eslint/eslint-plugin"
   description: TypeScript plugin for ESLint
@@ -141,7 +151,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: apps/components/package.json
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/apps/components/package.json
   detection_source: apps/components/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 20:36:40.000000000 Z
@@ -155,7 +165,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: apps/components/package.json
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/apps/components/package.json
   detection_source: apps/components/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 20:36:40.000000000 Z
@@ -170,7 +180,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16834/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
-  detection_source_url: libs/ts-base/package.json
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/libs/ts-base/package.json
   detection_source: libs/ts-base/package.json
   last_updated_by: shedali
   last_updated_on: 2023-01-22 20:35:38.000000000 Z
@@ -184,7 +194,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: apps/components/package.json
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/apps/components/package.json
   detection_source: apps/components/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 20:14:22.000000000 Z
@@ -198,7 +208,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: apps/components/package.json
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/apps/components/package.json
   detection_source: apps/components/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 22:45:55.000000000 Z
@@ -212,7 +222,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: apps/components/package.json
+  detection_source_url: https://github.com/shedali/template-svelte-pnpm-monorepo/blob/master/apps/components/package.json
   detection_source: apps/components/package.json
   last_updated_by: Franz Sittampalam
   last_updated_on: 2023-01-22 20:14:22.000000000 Z
